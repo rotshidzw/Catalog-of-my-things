@@ -3,13 +3,12 @@ require './label/create_label'
 require './book/list_books'
 
 class Execution
-    include AddLabel
-    include AddBook
-    include ListBook
+  include AddLabel
+  include AddBook
+  include ListBook
 
-    def initialize
-        @books = []
-        @labels = []
-    end
-
+  def initialize
+    @books = []
+    @labels = []
+  end
 end
