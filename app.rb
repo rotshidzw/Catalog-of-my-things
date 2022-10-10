@@ -1,4 +1,4 @@
-require './options'
+require_relative 'options'
 
 class App
   include Options
