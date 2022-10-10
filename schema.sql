@@ -18,3 +18,9 @@ CREATE TABLE books (
 
     PRIMARY KEY (id)
 );
+
+CREATE TABLE labels (
+    id INT GENERATED ALWAYS AS IDENTITY
+    title VARCHAR(190)
+    color VARCHAR(190)
+);
