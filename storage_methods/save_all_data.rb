@@ -1,6 +1,6 @@
-require_relative 'json'
-require_relative './book/book'
-require_relative './book/list_books'
+require 'json'
+require './book/book'
+require './book/list_books'
 
 module SaveAllData
     def save_data
@@ -24,4 +24,4 @@ module SaveAllData
           { id: label.id, title: label.title, color: label.color }
         end
     end
-    
+  end

@@ -33,3 +33,4 @@ module LoadData
           Label.new(label['title'], label['color'], label['id'])
         end
     end
+  end
