@@ -18,12 +18,8 @@ module LoadData
         read_data('./data/books.json').each do |book|
           new_book = Book.new(book['publisher'], book['cover_state'], book['publish_date'], book['id'],
                               archived: book['archived'])
-          genre = @genres.find { |item| item.id == book['genre']['id'] }
           label = @labels.find { |item| item.id == book['label']['id'] }
-          author = @author_list.find { |item| item.id == book['author']['id'] }
-          genre.add_item(new_book)
           label.add_item(new_book)
-          author.add_item(new_book)
           @books << new_book
         end
     end
