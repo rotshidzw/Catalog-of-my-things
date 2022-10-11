@@ -1,32 +1,32 @@
 module LoadData
-    def load_all_data
-        read_label
-        read_book
-    end
+  def load_all_data
+    read_label
+    read_book
+  end
 
-    def read_data(file_name)
-        file = File.open(file_name)
-        if File.exist?(file) && File.read(file) != ''
-          data = file.read
-          JSON.parse(data)
-        else
-          []
-        end
-    end
-
-    def read_book
-        read_data('./data/books.json').each do |book|
-          new_book = Book.new(book['publisher'], book['cover_state'], book['publish_date'], book['id'],
-                              archived: book['archived'])
-          label = @labels.find { |item| item.id == book['label']['id'] }
-          label.add_item(new_book)
-          @books << new_book
-        end
-    end
-    
-    def read_label
-        @labels = read_data('./data/labels.json').map do |label|
-          Label.new(label['title'], label['color'], label['id'])
-        end
+  def read_data(file_name)
+    file = File.open(file_name)
+    if File.exist?(file) && File.read(file) != ''
+      data = file.read
+      JSON.parse(data)
+    else
+      []
     end
   end
+
+  def read_book
+    read_data('./data/books.json').each do |book|
+      new_book = Book.new(book['publisher'], book['cover_state'], book['publish_date'], book['id'],
+                          archived: book['archived'])
+      label = @labels.find { |item| item.id == book['label']['id'] }
+      label.add_item(new_book)
+      @books << new_book
+    end
+  end
+
+  def read_label
+    @labels = read_data('./data/labels.json').map do |label|
+      Label.new(label['title'], label['color'], label['id'])
+    end
+  end
+end
