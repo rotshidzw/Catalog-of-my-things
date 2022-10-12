@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require './label/label'
 require './book/book'
 describe Label do
