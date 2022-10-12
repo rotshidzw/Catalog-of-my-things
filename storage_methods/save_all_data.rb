@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'json'
 require './book/book'
 require './book/list_books'
