@@ -1,6 +1,5 @@
-require_relative 'options'
+require './options'
 
-# the App class
 class App
   include Options
   def run
