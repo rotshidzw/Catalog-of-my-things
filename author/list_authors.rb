@@ -13,4 +13,3 @@ class ListAuthors
       puts "\n"
     end
   end
-  
