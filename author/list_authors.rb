@@ -9,7 +9,7 @@ class ListAuthors
     puts "Authors List:\n"
     @author_list.each_with_index do |author, index|
     puts "#{index + 1}. #{author.first_name.capitalize} #{author.last_name.capitalize}\n"
-  end
+    end
     puts "\n"
   end
 end

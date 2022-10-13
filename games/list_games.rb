@@ -12,7 +12,7 @@ class ListGames
       Creator: #{game.author.first_name} #{game.author.last_name}
       Last Played: #{game.last_played_at}
       Multiplayer: #{game.multiplayer ? 'YES' : 'NO'}\n"
-   end
+    end
     puts "\n"
   end
 end
