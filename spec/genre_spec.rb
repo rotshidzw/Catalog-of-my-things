@@ -1,5 +1,5 @@
-require './genre/genre'
-require './music_album/music_album'
+require_relative '../genre/genre'
+require_relative '../music_album/music_album'
 
 describe Genre do
   context ' test genre class' do

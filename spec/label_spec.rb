@@ -1,5 +1,5 @@
-require './label/label'
-require './book/book'
+require_relative '../label/label'
+require_relative '../book/book'
 describe Label do
   context 'test label class' do
     book = Book.new('Macmilan', 'bad', '2000-01-02')
