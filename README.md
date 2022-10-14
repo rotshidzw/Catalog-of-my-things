@@ -1,42 +1,31 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Catalog of Things
 
-# Project Name
-
-> Description the project.
-
+> This is project that is designed to save our items into a catalog to a disk and load them later.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby
+- RSpec
+- Rubocop
+- VS Code
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Video Presentation & Demo](https://www.loom.com/share/d12d7d0fdccd4bf09ff80789cd621fb6)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+**To get a local copy up and running follow these simple example steps.**
+- Clone the project unto your local disk with `git clone ...`
+- Run `gem install` to install any dependencies
+- Run `ruby main.rb`
 
 ### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
+- The ruby runtime environment should be installed on the computer you are testing on.
 
 ### Run tests
-
-### Deployment
-
-
+To run tests, Run `rspec spec/name_of_file_under_tests.rb`
 
 ## Authors
 
