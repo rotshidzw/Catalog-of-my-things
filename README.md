@@ -28,12 +28,6 @@
 ### Run tests
 
 To run tests, Run `rspec spec/name_of_file_under_tests.rb`
-rspec spec/author_spec.rb
-rspec spec/book_spec.rb
-rspec spec/game_spec.rb
-rspec spec/genre_spec.rb
-rspec spec/label_spec.rb
-rspec spec/music_album_spec.rb
 
 ## Authors
 
