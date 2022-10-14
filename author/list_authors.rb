@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class ListAuthors
   attr_reader :author_list
 
