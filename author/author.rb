@@ -1,3 +1,6 @@
+require './games/game'
+
+# This is class Author
 class Author
   attr_reader :items, :first_name, :last_name
   attr_accessor :id

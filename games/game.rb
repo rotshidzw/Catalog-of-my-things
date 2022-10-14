@@ -3,6 +3,7 @@ require './genre/genre'
 require './label/label'
 require './author/author'
 require './author/create_author'
+require './games/game'
 
 class Game < Item
   attr_reader :last_played_at, :multiplayer
