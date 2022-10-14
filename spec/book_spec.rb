@@ -1,5 +1,5 @@
-require_relative '../book/book'
-require_relative 'date'
+require './book/book'
+require 'date'
 
 describe Book do
   context 'test book class' do
