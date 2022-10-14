@@ -1,56 +1,47 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Catalog of Things
 
-# Project Name
-
-> Description the project.
-
+> This is project that is designed to save our items into a catalog to a disk and load them later.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby
+- RSpec
+- Rubocop
+- VS Code
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Video Presentation & Demo](https://www.loom.com/share/d12d7d0fdccd4bf09ff80789cd621fb6)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+**To get a local copy up and running follow these simple example steps.**
+- Clone the project unto your local disk with `git clone ...`
+- Run `gem install` to install any dependencies
+- Run `ruby main.rb`
 
 ### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
+- The ruby runtime environment should be installed on the computer you are testing on.
 
 ### Run tests
-
-### Deployment
-
-
+To run tests, Run `rspec spec/name_of_file_under_tests.rb`
 
 ## Authors
 
-👤 **Author1**
+## **Abdullah Asghar**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
+| 👤 Name | Github | Twitter | LinkedIn |
+|------|--------|---------|----------|
+|Abdullah Asghar|[@Abdullah](https://github.com/Abdullah2213565)|[@Abdullah](https://twitter.com/dulakhan024)|[@AbdullahKhan](https://www.linkedin.com/in/abdullah-khan2002/)|
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+👤**mavhungu rotshidzwa**
+
+GitHub: [@rotshidzw](https://github.com/rotshidzw)
+- Twitter: [@rotshidzwamavh1](https://twitter.com/rotshidzwamavh1)
+- LinkedIn: [rotshidzwa mavhungu](https://www.linkedin.com/in/rochidzwa-chester-8062b6211/)
 
 ## 🤝 Contributing
 
