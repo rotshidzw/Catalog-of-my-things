@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # rubocop:disable Metrics/MethodLength
 require './label/label'
 # the label class

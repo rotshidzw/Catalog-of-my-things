@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 module LoadData
   def load_all_data
     read_label

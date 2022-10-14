@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require 'date'
 require './games/game'
 module AddGame

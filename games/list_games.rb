@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class ListGames
   def initialize(game_list)
     @game_list = game_list

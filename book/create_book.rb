@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require 'date'
 require './book/book'
 require './label/create_label'

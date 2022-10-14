@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require './games/add_game'
 require './author/author_methods'
 require './games/list_games'

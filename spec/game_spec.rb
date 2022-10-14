@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require './games/game'
 
 describe Game do
