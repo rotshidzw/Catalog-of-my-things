@@ -9,7 +9,7 @@
 - Rubocop
 - VS Code
 
-## Live Demo (if available)
+## Live Demo 
 
 [Video Presentation & Demo](https://www.loom.com/share/d12d7d0fdccd4bf09ff80789cd621fb6)
 
