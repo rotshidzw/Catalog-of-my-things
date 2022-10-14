@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './item'
 require './genre/genre'
 require './label/label'

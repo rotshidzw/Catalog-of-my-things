@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './genre/genre'
 require './music_album/music_album'
 

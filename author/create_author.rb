@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 require './author/Author'
 class CreateAuthor
-  def initialize()
+  def initialize
     puts "\n"
     puts 'Enter first name: '
     first_name = gets.chomp

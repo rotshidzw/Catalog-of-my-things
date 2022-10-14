@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # the Label class
 class Label
   # the Label class

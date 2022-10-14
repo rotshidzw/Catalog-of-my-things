@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './music_album/music_album'
 
 describe MusicAlbum do

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative './genre'
 # rubocop:disable Layout/LineLength, Metrics/MethodLength
 module GenreMenuMethods

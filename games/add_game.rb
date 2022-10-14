@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 require 'date'
 require './games/game'
 module AddGame
-  def add_game()
+  def add_game
     multiplayer = multiplayer?
     last_played_at = obtain_last_played_at
     publish_date = obtain_publish_date
